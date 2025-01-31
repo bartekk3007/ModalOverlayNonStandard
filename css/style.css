@@ -1,0 +1,42 @@
+.overlay
+{
+    background: rgba(0,0,0, 0.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+#onOff:checked ~ .overlay
+{
+    display: block;
+}
+
+/* Checkbox */
+#onOff
+{
+    display: none;
+}
+
+/* Buttons */
+.overlayButton
+{
+    display: inline-block;
+    margin-left: 50%;
+    text-align: center;
+    background: lightblue;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+/* Tło i czcionki */
+body
+{
+    font-family: sans-serif;
+    background-color: white;
+    /* Ustawienie duszka */
+    background-image: url("../img/WhiteBricks.png");
+    background-position: 0 0;
+}
